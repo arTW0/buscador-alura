@@ -1,0 +1,21 @@
+{
+    "name": "artwo/buscador-cursos",
+    "description": "projeto de buscador de cursos no site da Alura",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Artwo\\BuscadorCursos\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "arTW0",
+            "email": "arthur.moreira@itec.ufpa.br"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.7",
+        "symfony/dom-crawler": "^6.0",
+        "symfony/css-selector": "^6.3"
+    }
+}
